@@ -1,0 +1,53 @@
+.oval{
+    width: 300px;
+    height: 400px;
+    background: rgb(238, 218, 218);
+    border: 2px solid black;
+    border-radius: 100% / 120% 120% 75% 75%;
+}
+
+.arch{
+    width: 300px;
+    height: 400px;
+    margin-top: 20px;
+    border: 2px double black;
+    background: rgb(204, 9, 9);
+    border-radius: 50% / 100% 100% 0% 0%;
+}
+
+.circle{
+    width: 300px;
+    aspect-ratio: 1;
+    margin-top: 20px;
+    border: 2px double black;
+    background: red;
+    border-radius: 50%;
+}
+
+.tringle{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+     border: 2px double black;
+    background: rgb(172, 245, 178);
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+}
+
+.octagon{
+    width: 300px;
+    height: 300px;
+    background: rgb(226, 228, 146);
+    margin-top: 20px;
+    border: 2px solid black;
+    clip-path: polygon(16.6% 16.6%, 50% 0, 83.3% 16.6%, 100% 50%, 83.3% 83.3%, 50% 100%, 16.6% 83.3%, 0 50%);
+}
+
+.spark{
+    width: 300px;
+    aspect-ratio: 1;
+    height: 300px;
+    background: bisque;
+    margin-top: 20px;
+    border: 2px solid black;
+    clip-path: polygon(40% 40%, 50% 0, 60% 40%, 100% 50%, 60% 60%, 50% 100%, 40% 60%, 0 50%);
+}
